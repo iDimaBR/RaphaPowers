@@ -1,0 +1,8 @@
+name: RaphaPowers
+version: '${project.version}'
+main: com.github.idimabr.RaphaPowers
+prefix: RaphaPowers
+authors: [ iDimaBR ]
+depend: [ yPoints ]
+commands:
+  powergive:

@@ -1,0 +1,39 @@
+MySQL:
+  Host: 'localhost'
+  Database: 'raphapowers'
+  Username: 'root'
+  Password: ''
+
+Item:
+  Lightning:
+    Radius: 5
+    Damage: 10
+    Name: '&bRaio de Zeus'
+    Price: 100
+    Material: PRISMARINE_CRYSTALS
+    Data: 0
+    Lore:
+      - 'Teste'
+  Fireball:
+    Speed: 1.0
+    Name: '&cRojão de Fogo'
+    Price: 100
+    Material: BLAZE_POWDER
+    Data: 0
+    Lore:
+      - 'Teste'
+  MoreHearth:
+    Name: '&cBenção Milenar'
+    Material: GOLDEN_APPLE
+    Data: 0
+    Lore:
+      - '&aClique nesse item para'
+      - '&areceber %life% por %time%s'
+Messages:
+  Health:
+    Activate:
+      - '&aVocê permanecerá com &f%life% de vida &apor &f%time% segundos&a.'
+    MoreThanHealth:
+      - '&cA vida que está tentando ativar possui menos vida que a sua atual, aguarde a atual acabar.'
+    Finished:
+      - '&aAcabou o tempo dos seus %life% de vida!'
